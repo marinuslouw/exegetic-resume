@@ -6,7 +6,7 @@ JSONFILE <- "marinus-louw.json"
 # JSONFILE <- "gerard-walsh.json"
 TEMPLATE <- "resume-template.html"
 
-data <- fromJSON(JSONFILE)
+data <- fromJSON(file.path("json", JSONFILE))
 
 # TOOLS ---------------------------------------------------------------------------------------------------------------
 
@@ -45,4 +45,4 @@ resume <- glue(template, .open = "{{", .close = "}}", .envir = data)
 
 HTMLFILE <- sub(".json$", ".html", JSONFILE)
 
-writeLines(resume, HTMLFILE)
+writeLines(resume, file.path("html", HTMLFILE))
