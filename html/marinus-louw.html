@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Marinus Louw</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel='stylesheet' type='text/css'>
+        <style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+* { box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*
+ Primary Rules
+*/
+h1 {
+    font-weight: 300;
+    margin: 5px 0 0;
+    font-size: 40px;
+    padding: 0 10px 10px;
+    border-radius:2px;
+    font-family: 'Slabo 27px', serif;
+}
+/*
+h2 {
+    width: 150px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: 'Slabo 27px', serif;
+}*/
+h2, h3 { font-size: 18px;
+     font-weight: bold;
+     margin-bottom: 0;
+     line-height: 28px;
+     font-family: 'Slabo 27px', serif;
+}
+/* h2, h3 { margin-top: 5px } */
+a { color: #ba0018;
+    display: inline-block;
+    text-decoration: none;
+    padding:2px 4px;
+    border-radius:2px;
+    margin-right:-2px;
+}
+a:hover {
+  background-color:#ba0018;
+  color:#fff;
+}
+.key:first-child { margin-left: 0 }
+.key { margin: 0 10px;
+       position: relative;
+}
+.key::before { content: '◆';
+               position: absolute;
+               left: -15px;
+               color: #555;
+               font-size: 7pt;
+}
+.key:first-child::before { content: '' }
+.section { border-bottom: 1px solid #ddd;
+           padding: 10px 0 15px;
+}
+.section:last-child { border: none }
+.section-text {
+    width: 80%;
+    /*
+    font-size: 18px;
+    line-height: 24px;
+    */
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+.subsection { margin: 10px 0 5px }
+.desc { font-size: 16px; color:#444;}
+.contact-info { font-size: 16px;
+                text-align: right;
+}
+.emph { font-style: italic }
+.light { color: #aaa;letter-spacing:1px;
+         font-size: 14px;
+         line-height:28px;
+         text-transform:uppercase;
+}
+ul{
+  padding-left:15px;
+}
+ul.skills{
+  float:left;
+  width:30%;
+  padding-left:0px;
+  margin: 0 20px 0 0;
+}
+ul.skills li{
+  list-style: none;
+  font-size:16px;
+  margin-bottom:10px;
+}
+ul.skills li:last-child{
+  margin:0;
+}
+/*
+ Float Rules
+*/
+.row:before, .row:after { content: "";
+                          display: table;
+}
+.row:after { clear: both }
+.col { float: left }
+.col-right { float: right }
+/*
+ Page Rules
+*/
+.page { width: 1000px;
+        min-height: 29.7cm;
+        margin: 1cm auto;
+        background: white;
+        padding: 20px 50px;
+}
+.subpage { padding: 1cm;
+           border: 1px red solid;
+           height: 297mm;
+}
+@page { size: A4;
+        margin: 0;
+}
+@media print {
+    .page { margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+    }
+    .page-break{
+      page-break-before: always;
+      padding-top:30px;
+    }
+    body { font-size: 12pt;}
+    h1{
+      font-size: 23pt;
+    }
+    h2{
+      font-size:10pt;
+      width: 3cm;
+      padding-left: 10px;
+    }
+    h3 { font-size: 10pt; line-height:11pt}
+    .section-text { font-size: 9pt; line-height: 14pt; }
+    .light { font-size: 7.5pt; line-height:12pt; color:#ddd; }
+    
+    .page { width: 21cm }
+    ul {margin:5px 0 0}
+    .section { padding: 5px 0 8px }
+    .section-text { width: 15cm; margin: 5px 0 5px;}
+    .subsection { margin: 5px 0 0 }
+    .desc { font-size: 9pt }
+    
+    .contact-info { font-size: 9pt}
+    
+    ul.skills{margin: 0 10px 0 0;}
+    ul.skills li{ font-size: 9pt; margin-bottom:0}
+}
+        </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <div class="section row">
+        <h1 class="col">Marinus Louw</h1>
+        <div class="contact-info col-right">
+        <div>083 385 2564 <i class="fa fa-phone-square"></i></div>
+          <div><a href="mailto:marinus@exegetic.biz">marinus@exegetic.biz</a> <i class="fa fa-envelope-square"></i></div>
+          <div><a href="https://www.linkedin.com/in/marinuslouw/">https://www.linkedin.com/in/marinuslouw/</a> <i class="fa fa-linkedin-square"></i></div>
+        </div>
+      </div>
+      <!-- TOOLS -->
+      <div class="section row">
+        <h2 class="col-md-3">Tools</h2>
+        <div class="col-md-9">
+          <div class="row">
+<div class="col-md-4">R</div>
+<div class="col-md-4">Python</div>
+<div class="col-md-4">SQL</div>
+<div class="col-md-4">Linux</div>
+<div class="col-md-4">Git</div>
+          </div>
+        </div>
+      </div>
+      <!-- EDUCATION -->
+      <div class="section row">
+        <h2 class="col-md-3">Education</h2>
+        <div class="col-md-9">
+<div>
+  <h3>Master of Commerce (MComm) (Econonomics and Econometrics)</h3>
+  <div>University of Stellenbosch</div>
+  <div class="row">
+    <div class="col light">Stellenbosch, South Africa</div>
+    <div class="col-right light">2016-2017</div>
+  </div>
+  <div>BLAH, BLAH, BLAH</div>
+</div>
+<div>
+  <h3>Honours Bachelor of Commerce (BCommHons) (Econonomics and Econometrics)</h3>
+  <div>University of Stellenbosch</div>
+  <div class="row">
+    <div class="col light">Stellenbosch, South Africa</div>
+    <div class="col-right light">2015-2016</div>
+  </div>
+  <div>BLAH, BLAH, BLAH</div>
+</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

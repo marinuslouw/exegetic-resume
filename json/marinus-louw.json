@@ -1,0 +1,25 @@
+{
+  "name": "Marinus Louw",
+  "phone": "083 385 2564",
+  "email": "marinus@exegetic.biz",
+  "linkedin": "https://www.linkedin.com/in/marinuslouw/",
+  "nationality": "South African",
+  "Lanugages": ["Afrikaans (native tongue)", "English (fluent)"],
+  "tools": ["R", "Python", "SQL", "Linux", "Git"],
+  "education": [
+    {
+      "institution": "University of Stellenbosch",
+      "location": "Stellenbosch, South Africa",
+      "qualification": "Master of Commerce (MComm) (Econonomics and Econometrics)",
+      "period": "2016-2017",
+      "details": "BLAH, BLAH, BLAH"
+    },
+    {
+      "institution": "University of Stellenbosch",
+      "location": "Stellenbosch, South Africa",
+      "qualification": "Honours Bachelor of Commerce (BCommHons) (Econonomics and Econometrics)",
+      "period": "2015-2016",
+      "details": "BLAH, BLAH, BLAH"
+    }
+  ]
+}
