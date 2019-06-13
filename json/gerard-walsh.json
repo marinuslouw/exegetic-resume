@@ -19,5 +19,25 @@
       "period": "2017",
       "details": "Thesis: Design, manufacture and calibration of a Bi-Axial strain device for testing mechanical properties of heart-valve tissue prosthesis."
     }
+  ],
+  "experience": [
+    {
+      "company": "Exegetic Analytics",
+      "title": "Junior Data Scientist",
+      "period": "2019/03-2019/06",
+      "details": "Consult for various companies on Data Science tasks: Analytics, model creation and visualization in R & Python, database management in MySQL, Shiny app development, deployment & containerization with Docker."
+    },
+    {
+      "company": "Fraunhofer IWU, Chemnitz, Germany",
+      "title": "Computer Vision Research Intern",
+      "period": "2018/09-2019/01",
+      "details": "Literature review and critical analysis of state-of-the-art Computer Vision algorithms for Object Tracking, Detection, Pose Estimation and Stereo Vision. Assessment for industry usage based on robustness and speed. Working with various Computer Vision algorithms using TensorFlow, Caffe, Caffe2 utilizing programming languages Python, C++ and MATLAB. Creation and maintenance of software infrastructure including Docker images, NVIDIA GPU drivers/toolkits, virtual environments."
+    }
+  ],
+  "about": [
+    {
+      "languages": "English, Afrikaans, German (A1).",
+      "hobbies": "Swimming, Water polo, Yoga, Mountain-biking, self-development, automotive diy, motorsport."
+    }
   ]
 }
