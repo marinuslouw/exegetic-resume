@@ -4,7 +4,6 @@
   "email": "marinus@exegetic.biz",
   "linkedin": "https://www.linkedin.com/in/marinuslouw/",
   "nationality": "South African",
-  "Lanugages": ["Afrikaans (native tongue)", "English (fluent)"],
   "tools": ["R", "Python", "SQL", "Linux", "Git"],
   "education": [
     {
@@ -12,14 +11,41 @@
       "location": "Stellenbosch, South Africa",
       "qualification": "Master of Commerce (MComm) (Econonomics and Econometrics)",
       "period": "2016-2017",
-      "details": "BLAH, BLAH, BLAH"
+      "details": "Focus Areas: Quantitative Finance, Financial Econometrics, Time-Series Econometrics, Macroeconomics. Modules: Financial Econometrics, Advanced Econometrics, Advanced Microeconomics, Financial Economics, Advanced Macroeconomics, Industrial Organisation, Advanced Time Series Ananlysis, Dynamic Economic Theory. Dissertation topic: Measuring company innovation using CEO and board member age: a quantitative and empirical approach"
     },
     {
       "institution": "University of Stellenbosch",
       "location": "Stellenbosch, South Africa",
-      "qualification": "Honours Bachelor of Commerce (BCommHons) (Econonomics and Econometrics)",
+      "qualification": "Honours Bachelor of Commerce (BCommHons) (Econonomics)",
       "period": "2015-2016",
-      "details": "BLAH, BLAH, BLAH"
+      "details": "Dissertation topic: The underlying risks in the Local Government Debt of China"    
+    },
+    {
+      "institution": "University of Stellenbosch",
+      "location": "Stellenbosch, South Africa",
+      "qualification": "BComm (Econonomics)",
+      "period": "2012-2014",
+      "details": "Major: Economics"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Exegetic Analytics",
+      "title": "Junior Data Scientist",
+      "period": "Dec 2018 (6 months)",
+      "details": "Clean, dissect, wrangle and curate data of various formats. Use new technologies and programming languages to solve problems and present data in a more meaningful way. In a team environment, solve complex problems and consult for a wide range of companies from multiple industries. Speak at meetups and conferences."
+    },
+    {
+      "company": "University of Stellenbosch",
+      "title": "Stellenbosch, South Africa",
+      "period": "Apr 2018 - Dec 2018 (8 months)",
+      "details": "Design and develop analytical pricing strategies that are based on econometric models. Compile monthly reports on growth opportunities and the micro- and macro-economic outlook from the wine industry's perspective."
+    }
+  ],
+  "about": [
+    {
+      "languages": "Afrikaans (native tongue), English (fluent)",
+      "hobbies": "Mountaing biking, trail running, anything outdoors."
     }
   ]
 }
