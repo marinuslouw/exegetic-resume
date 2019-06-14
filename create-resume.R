@@ -88,4 +88,4 @@ resume <- glue(template, .open = "{{", .close = "}}", .envir = data)
 
 HTMLFILE <- sub(".json$", ".html", JSONFILE)
 
-writeLines(resume, file.path("html", HTMLFILE))
+writeLines(resume, file.path("docs", HTMLFILE))
